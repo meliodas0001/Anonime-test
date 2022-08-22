@@ -1,0 +1,160 @@
+:root {
+    --background: #192026;
+    --search_text: #374151;
+    --text_color: #868686;
+    --input_background: #374151;
+    font-family: "Poppins";
+    background: var(--background);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#root {
+    height: 1024px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    height: 48px;
+    width: 1274px;
+    margin: 24px 83px 0px 50px;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+#header img {
+    width: 201.44px;
+    height: 32px;
+}
+
+#search_input {
+   width: 374px;
+   height: 34px;
+   border-radius: 37px; 
+   background-color: var(--input_background);
+   margin-left: auto;
+   border: none;
+   font-family: "Poppins";
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 32px;
+   padding: 8px 100px 8px 18px;
+   color: white;
+}
+
+.links {
+    text-decoration: none;
+    color: var(--text_color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: "Poppins";
+    margin-right: 32px;
+    margin-left: 90px;
+}
+
+#content_divisor {
+    display: inline-flex;
+}
+
+#center_content {
+    height: 1169px;
+    width: 813px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#center_content span {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+#player {
+    margin-top: 32px;
+    width: 770px;
+    height: 472px;
+}
+
+#anime_card {
+    margin-top: 32px;
+    display: inline-flex;
+    width: 813px;
+    height: 422px;
+}
+
+div #anime_card img {
+    height: 379px;
+    width: 270px;
+}
+
+#description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+div #anime_card span strong{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    color: white;
+}
+
+div #anime_card span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--text_color);
+    margin-bottom: 12px;
+}
+
+div #synopse span strong{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    color: white;
+}
+
+div #synopse span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--text_color);
+    margin-bottom: 12px;
+}
+
+#popular_anime {
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 370px;
+    height: 800px;
+}
+
+#title {
+    color: white;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+div #anime_list img {
+    width: 170px;
+    height: 229.02;
+    margin-left: 12px;
+    margin-bottom: 29px;
+}
+
+#anime_list {
+    margin-top: 32px;
+}
